@@ -28,7 +28,8 @@ package week4;
         @Override
         protected Object clone()
         throws CloneNotSupportedException {
-           return super.clone();
+           //return super.clone();
+           return a;
         
         }
     }
